@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+.hf{
+    font-family: 'Playfair Display SC', serif;
+
+}
+.myheader nav{
+    z-index: 99;
+}
+.myheader li a{
+    color: black;
+    font-size: 18px;
+}
+.mainbanner{
+    background-image: url("./image/mainbanner.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    top: -86px;
+    text-align: center;
+}
+.mainbanner .banner-content{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner-content form{
+    position: absolute;
+    top: 150%;
+    left: 25px;
+    background-color: rgba(255, 255, 255, 0.309);
+}
+.tour-sec {
+    position: relative;
+}
+.tour-sec h1{
+    position: absolute;
+    font-size: 100px !important;
+    top: -55px;
+    left: -10px;
+    color: rgb(97, 177, 231);
+}
+.ourtour-sec img{
+    position: relative;
+    top: -40px;
+}
+.rev-sec i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.myfoot i{
+    font-size: 30px;
+    margin-right: 4px;
+}
+.fo-s{
+    font-size: 18px;
+}
+.myfoot li a{
+    color: grey;
+    padding: 0px !important;
+}
+.myfoot li:hover{
+    color: black;
+}
+.berger{
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+    z-index: 99;
+}
+ @media (max-width:1120px){
+     .mynav{
+         display: none !important;
+     }
+ }
+ @media (min-width:1120px){
+    .berger{
+        display: none;
+    }
+}
+.aboutbanner{
+    background-image: url("./image/aboutusbg.jpg");
+    height: 50vh;
+    background-position: 100% 30%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    margin-top: -85px;
+}
+.aboutbanner .about-content{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.aboutbanner li a{
+    color: black;
+    font-size: 18px;
+}
+.about-sec{
+    background-attachment: fixed;
+    font-size: 18px;
+    background-image: linear-gradient(0deg, #f5eeeeb4, transparent), url("./image/tourbg.jpg"); 
+}
+@media (max-width:767px){
+    .about-sec img{
+        width: 100%;
+    }
+}
+
+.about-sec-cont{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.687), rgba(255, 255, 255, 0.653));
+    border: 4px double lightgrey;
+}
+.caption{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+}
+.vip-ser{
+    position: relative;
+    height: 300px;
+    outline-offset: -10px;
+    background-size: cover;
+    transition: 0.5s all linear;
+    outline: 1px solid whitesmoke;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.vip-ser:hover{
+    outline-offset: -25px;
+    transform: scale(1.1);
+    }
+.vip-item6{
+    background-image: linear-gradient(360deg, #686464c4, transparent), url(./image/vip1.jpg); 
+}
+.vip-item1{
+    background-image: linear-gradient(360deg, #686464c4, transparent), url(./image/vip2.jpg); 
+}
+
+.vip-item2{
+    background-image: linear-gradient(360deg, #686464c4, transparent), url(./image/vip3.jpg); 
+}
+
+.vip-item3{
+    background-image: linear-gradient(360deg, #686464c4, transparent), url(./image/vip4.jpg); 
+}
+
+.vip-item4{
+    background-image: linear-gradient(360deg, #686464c4, transparent), url(./image/vip5.jpg); 
+}
+
+.vip-item5{
+    background-image: linear-gradient(360deg, #686464c4, transparent), url(./image/vip6.jpg); 
+}
+
+.vip-item7{
+    background-image: linear-gradient(360deg, #686464c4, transparent), url(./image/vip7.jpg); 
+}
+
+.vip-item8{
+    background-image: linear-gradient(360deg, #686464c4, transparent), url(./image/vip8.jpg); 
+}
+.con-sec input:hover{
+ border:1px solid black;
+}
+.con-sec textarea:hover{
+    border:1px solid black;
+   }
+   
+
+
+
+
